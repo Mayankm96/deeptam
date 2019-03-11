@@ -1,5 +1,23 @@
+# Changes Made
+
+The code runs on Ubuntu 16.04LTS with Python3 and TensorFlow 1.9.0.
+
+__NOTE:__
+* Install TensforFlow 1.9. instead of TensorFlow 1.4:
+```bash
+pip install tensorflow-gpu==1.9.0
+```
+* Clone the following repository for `lmbspecialops` instead of the one mentioned below:
+```bash
+git clone -b deeptam https://github.com/Mayankm96/lmbspecialops
+```
+
+The remaining setup instructions are the same.
+
+---
+
 # DeepTAM
-DeepTAM is a learnt system for keyframe-based dense camera tracking and mapping. 
+DeepTAM is a learnt system for keyframe-based dense camera tracking and mapping.
 
 If you use this code for research, please cite the following paper:
 
@@ -11,7 +29,7 @@ If you use this code for research, please cite the following paper:
         year         = "2018",
         url          = "http://lmb.informatik.uni-freiburg.de/Publications/2018/ZUB18"
     }
-    
+
 See the [project page](https://lmb.informatik.uni-freiburg.de/people/zhouh/deeptam/) for the paper and other material.
 
 **Note**: Currently we only provide deployment code for the camera tracking. The mapping code will come soon.
